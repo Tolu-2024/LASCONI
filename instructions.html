@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LASCON | INSTRUCTIONS</title>
+    <link rel="stylesheet" href="instructions.css">
+    <link rel="shortcut icon" href="lascon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+</head>
+<body style="font-family: Roboto, Poppins;"></body>>
+   <div class="container0">
+    <div class="header1" id="header1">
+        <div class="lets"><img class="lasimg" src="lascon.png" alt=""></div>
+        <div class="links0">
+          <nav>
+            <a  class="stylec"  href="homepage.html">Home |</a>
+            <a  class="stylec" href="news.html"> News |</a>
+            <a class="stylec" href="htpps://office.com"> Staff  Login |</a>
+            <a class="stylec" href="contact.html"> Contact</a>
+          </nav>
+          <div style="color: #ffffff;" class="enq"><h5><span style="font-size: 15px;">For Enquires </span>  |<i class="bi bi-telephone-fill"></i>|</h5></div>
+        </div>
+    </div>
+    <div class="header2">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div style="background-color: #249FC8;" class="container">
+                <!-- Navbar Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav" >
+                    <ul class="navbar-nav mx-auto" style="width: 60%; display: flex; justify-content: space-between;">
+                        <li class="nav-item"><a class="heads" class="nav-link" href="admission1.html">START APPLICATION</a></li>
+                        <li class="nav-item"><a class="heads" class="nav-link" href="application.html">CONTINUE APPLICATION</a></li>
+                        <li class="nav-item"><a class="heads" class="nav-link" href="status.html">CHECK STATUS</a></li>
+                        <li class="nav-item"><a  class="heads"class="nav-link" href="instructions.html">INSTRUCTIONS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   </div> 
+        <div class="container1">
+            <div class="start"><h3 style="color: #555555; font-size: 40px;">Application Instructions</h3></div>
+            <div class="holder0">
+                <div class="part1">
+                    <div class="part1i">
+                      <div class="mission">  
+                            <h5 style="color: rgb(85, 85, 85, 0.6);">ADDRESS</h5>
+                            <p style="color: #555555;"><i class="bi bi-house-door-fill"></i> Alimosho General Hospital, LASU / Isheri Road, Igando Lagos State, Nigeria.</p>
+                            <p style="color: #555555 !important;"><i class="bi bi-telephone-fill"></i> Telephone: </p>
+                            <a href="#" class="fill" style="text-decoration: none;"><p style="color: #555555 !important;"><i class="bi bi-envelope-fill"></i> Email: info@lascon.gov.ng</p></a>
+                        </div>
+                        <div class="maphld">
+                          <div id="routeDisplay"></div>
+                          <p style="color: #555555; padding-top: 3%;">Get directions by writing your start point.</p>
+                          <input type="text" id="start-location" placeholder="Enter your location">
+                          <button class="dbut" onclick="getDirections()">Get Directions</button>
+                          <div class="directions" id="directions"></div>
+                        </div>
+                    </div>
+                    <div class="image"><img src="course1.png" alt="" width="100%" height="250px"></div>
+                </div>
+                <div class="part2">
+                  <div class="part2b">
+                    <div class="text"><p style="color: #555555;">Go to the college website at <span><a href="https://lascon.gov.ng" class="fill" style="text-decoration: none;">https://lascon.gov.ng</a></span></p></div>
+                    <div class="text" style="margin-top: -1%;"><p style="color: #555555;">Click on the Course menu then click on Apply</p></div>
+                    <div class="insimg"><img src="ins1.png" alt="" width="100%" height="300px"></div>
+                    <br>
+
+                    <div class="text"><p style="color: #555555;">Create a new application account by filling in the following details as requested</p></div>
+                    <div class="text"><p style="color: #555555;">
+                      Surname <br>
+                      Firstname <br>
+                      Othernames <br>
+                      Select course <br>
+                      E mail address <br>
+                      Phone number <br>
+                      JAMB number <br>
+                      Then click on ‘’Submit’’</p>
+                    </div>
+                    <div class="insimg"><img src="ins2.png" alt="" width="100%" height="300px"></div>
+                    <br>
+
+                    <div class="text"><p style="color: #555555;">A confirmation mail would be sent to the e-mail provided, make sure you have full access to the e-mail provided. The confirmation mail would contain a payment link, your Admission Number and password.</p></div>
+                      <div class="insimg"><img src="ins3.png" alt="" width="100%" height="300px"></div>
+                      <br>
+
+                      
+                    <div class="text"><p style="color: #555555;">Click on the link. A payment page will be loaded. <br>Select your method of payment (eg. Paystack or Voucher ). Select Voucher if you`ve already purchase a voucher from the institution else select paystack</p></div>
+                    <div class="insimg"><img src="ins5.png" alt="" width="100%" height="300px"></div>
+                    <br>
+
+                    <div class="text"><p style="color: #555555;">For Paystack</p></div>
+                    <div class="insimg"><img src="ins6.png" alt="" width="100%" height="300px"></div>
+                    <br>
+
+                    <div class="text"><p style="color: #555555;">
+                      Once the transaction have been completed, an activation notification mail will be sent to you contain your voucher pin and serial number <br>
+                      Go to the continue application page on your browser. You can either login using your admission number and password or by clicking on “Login with voucher” and supplying the voucher pin and serial number. <br>
+                      Then click on ‘’log in’’ <br>
+                      This would take you to the ‘’Applicant Information’’ page where you are required to fill the following; <br>
+                      Demographic information <br>
+                      Address information <br>
+                      O’Level details (fill only the required 5 subjects for your course of study) <br>
+                      Parents/Guardian/Sponsor Details <br>
+                      Upload passport (not more than  150kb) <br>
+                      Upload Documents <br>
+                      Change password <br>
+                      Lock details <br>
+                    </div>
+                    <div class="text"><p style="color: #555555;">Having filled all required details, click ‘’sign out’’</p></div>
+                    </div>
+                  </div> 
+                </div>
+ 
+                <div class="cta"><a href="#header1"><i class="arr bi bi-arrow-up"></i></a></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerhld">
+              <div class="foot1">
+                <div class="imghld"><img src="eko1.png" alt="" width="100%" height="170px"></div>
+                <div class="foottext"><p style="font-size: 15px; padding-top: 2%; color: #555555;">LASCON &copy; 2025, All Right Reserved.</p></div>
+                <div class="icon"><a href="#"><img src="download-removebg-preview-removebg-preview.png" alt="" width="100%" height="60px"></a></div>
+                <div class="icon1"><a href="#"><img src="images-removebg-preview.png" alt="" width="100%" height="60px"></a></div>
+              </div>
+              <div class="foot2">
+                <div class="con"><h4 style="color: #555555;">Contacts</h4></div>
+                <div class="fulled"><h6 style="color: #555555; font-size: 15px;"><i class="bi bi-house-door-fill"></i> Alimosho General Hospital, LASU / Isheri Road, Igando Lagos State, Nigeria.</h6>
+                <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-telephone-fill"></i> Telephone: </h6>
+                <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-envelope-fill"></i> Email: <a href="#" class="fill" style="text-decoration: none;">info@lascon.gov.ng</a></h6>
+                </div>
+                <div class="news"><h4 style="color: #555555;">News letter</h4></div>
+                <div class="newst"><h6 style="color: #555555; font-size: 15px;"> subscribe to our institution weekly update</h6></div>
+                <form action="https://usebasin.com/f/a89158ca4dd7" method="POST">
+                  <input class="email" type="email" name="email" placeholder="Your Email" required>
+                  <button class="but" type="submit" style="color: #ffffff;">Subscribe</button>
+              
+                  <!-- Hidden Fields (For better experience) -->
+                  <input type="hidden" name="_subject" value="New Subscription Request">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="http://127.0.0.1:5500/homepage.html" value="https://yourwebsite.com/thank-you.html">
+              </form>
+              </div>
+              <div class="foot3">
+                <div class="qiuck0"><h4 style="color: #555555;">Quick links</h4></div>
+                <div class="fulled2">
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="https://studentportal.lascon.edu.ng/Main/home" target="_blank" class="fill" style="text-decoration: none;">  Undergraduate Portal</a></h6>
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="http://www.iclasslms.com" target="_blank" class="fill" style="text-decoration: none;">  E-learning Portal</a></h6>
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="instructions.html" target="_blank" class="fill" style="text-decoration: none;">  Alumni Portal</a></h6>
+                </div>
+                <div class="fulled3">
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="contact.html" class="fill" style="text-decoration: none;">  Contact Us</a></h6>
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="gallery.html" class="fill" style="text-decoration: none;">  Gallery</a></h6>
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="news.html" class="fill" style="text-decoration: none;">  News</a></h6>
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="events.html" class="fill" style="text-decoration: none;">  Events</a></h6>
+                  <h6 style="color: #555555 !important; font-size: 15px;"><i class="bi bi-box-arrow-down-right"></i><a href="vacancy.html" class="fill" style="text-decoration: none;">  Vacancy</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
